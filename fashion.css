@@ -274,7 +274,7 @@ img {
     display: inline-block;
     max-width: 100%;
     text-align: center;
-    color: hsla(0,0,100%,0.3);
+    color: rgba(255, 255, 255, 0.3);
     line-height: 100%;
     font-size: 39.9pt;
     font-weight: bolder;
@@ -293,96 +293,96 @@ img {
 #asylum {
 	animation: neonlogo 0.33s forwards ease-in-out 0.99s, neonlogodrop 3.00s forwards ease-in-out 6.66s;
 }
-#logoblock:hover #asylum, #logoblock:hover #the {
+#logoblock:hover #asylum,#logoblock:hover #the {
 	animation: glitch 0.23s forwards ease-in-out;
     cursor: url(cur/rock.png) 9 1, url(cur/rock.cur) 9 1, pointer;
 }
 
 @keyframes neonlogo {
     0% {
-        color: hsla(0,0,100%, 1.0);
+        color: rgba(255, 255, 255, 1.0);
         -webkit-filter: drop-shadow(0px 0px 3px #e6e6e6);
         filter: drop-shadow(0px 0px 3px #e6e6e6);}
     10% {
-        color: hsla(0,0,100%, 0.3);
+        color: rgba(255, 255, 255, 0.3);
         -webkit-filter: drop-shadow(0px 0px 0px black);
         filter: drop-shadow(0px 0px 0px black);}
     20% {
-        color: hsla(0,0,100%, 1.0); 
+        color: rgba(255, 255, 255, 1.0); 
         -webkit-filter: drop-shadow(0px 0px 3px #e6e6e6);
         filter: drop-shadow(0px 0px 3px #e6e6e6);}
     30% {
-        color: hsla(0,0,100%, 0.3); 
+        color: rgba(255, 255, 255, 0.3); 
         -webkit-filter: drop-shadow(0px 0px 0px black);
         filter: drop-shadow(0px 0px 0px black);}
     40% {
-        color: hsla(0,0,100%, 1.0); 
+        color: rgba(255, 255, 255, 1.0); 
         -webkit-filter: drop-shadow(0px 0px 3px #e6e6e6);
         filter: drop-shadow(0px 0px 3px #e6e6e6);}
     60% {
-        color: hsla(0,0,100%, 1.0); 
+        color: rgba(255, 255, 255, 1.0); 
         -webkit-filter: drop-shadow(0px 0px 3px #e6e6e6);
         filter: drop-shadow(0px 0px 3px #e6e6e6);}
     70% {
-        color: hsla(0,0,100%, 0.3); 
+        color: rgba(255, 255, 255, 0.3); 
         -webkit-filter: drop-shadow(0px 0px 0px black);
             filter: drop-shadow(0px 0px 0px black);}
     80% {
-        color: hsla(0,0,100%, 1.0); 
+        color: rgba(255, 255, 255, 1.0); 
         -webkit-filter: drop-shadow(0px 0px 3px #e6e6e6);
         filter: drop-shadow(0px 0px 3px #e6e6e6);}
     100% {
-        color: hsla(0,0,100%, 0.3); 
+        color: rgba(255, 255, 255, 0.3); 
         -webkit-filter: drop-shadow(0px 0px 3px #e6e6e6);
         filter: drop-shadow(0px 0px 3px #e6e6e6);}
 }
 @keyframes neonlogodrop {
     0% {
-        color: hsla(0,0,100%, 1.0); 
+        color: rgba(255, 255, 255, 1.0); 
         -webkit-filter: drop-shadow(0px 0px 3px #e6e6e6);
         filter: drop-shadow(0px 0px 3px #e6e6e6);}
     1% {
-        color: hsla(0,0,100%, 0.3); 
+        color: rgba(255, 255, 255, 0.3); 
         -webkit-filter: drop-shadow(0px 0px 0px black);
             filter: drop-shadow(0px 0px 0px black);}
     2% {
-        color: hsla(0,0,100%, 1.0); 
+        color: rgba(255, 255, 255, 1.0); 
         -webkit-filter: drop-shadow(0px 0px 3px #e6e6e6);
         filter: drop-shadow(0px 0px 3px #e6e6e6);}
     3% {
-        color: hsla(0,0,100%, 0.3); 
+        color: rgba(255, 255, 255, 0.3); 
         -webkit-filter: drop-shadow(0px 0px 0px black);
             filter: drop-shadow(0px 0px 0px black);}
     4% {
-        color: hsla(0,0,100%, 1.0); 
+        color: rgba(255, 255, 255, 1.0); 
         -webkit-filter: drop-shadow(0px 0px 3px #e6e6e6);
         filter: drop-shadow(0px 0px 3px #e6e6e6);}
     94% {
-        color: hsla(0,0,100%, 1.0); 
+        color: rgba(255, 255, 255, 1.0); 
         -webkit-filter: drop-shadow(0px 0px 3px #e6e6e6);
         filter: drop-shadow(0px 0px 3px #e6e6e6);}
     95% {
-        color: hsla(0,0,100%, 0.3); 
+        color: rgba(255, 255, 255, 0.3); 
         -webkit-filter: drop-shadow(0px 0px 0px black);
             filter: drop-shadow(0px 0px 0px black);}
     96% {
-        color: hsla(0,0,100%, 1.0); 
+        color: rgba(255, 255, 255, 1.0); 
         -webkit-filter: drop-shadow(0px 0px 3px #e6e6e6);
         filter: drop-shadow(0px 0px 3px #e6e6e6);}
     97% {
-        color: hsla(0,0,100%, 1.0); 
+        color: rgba(255, 255, 255, 1.0); 
         -webkit-filter: drop-shadow(0px 0px 3px #e6e6e6);
         filter: drop-shadow(0px 0px 3px #e6e6e6);}
     98% {
-        color: hsla(0,0,100%, 0.3); 
+        color: rgba(255, 255, 255, 0.3); 
         -webkit-filter: drop-shadow(0px 0px 0px black);
             filter: drop-shadow(0px 0px 0px black);}
     99% {
-        color: hsla(0,0,100%, 1.0); 
+        color: rgba(255, 255, 255, 1.0); 
         -webkit-filter: drop-shadow(0px 0px 3px #e6e6e6);
         filter: drop-shadow(0px 0px 3px #e6e6e6);}
     100% {
-        color: hsla(0,0,100%, 1.0); 
+        color: rgba(255, 255, 255, 1.0); 
         -webkit-filter: drop-shadow(0px 0px 3px #e6e6e6);
             filter: drop-shadow(0px 0px 3px #e6e6e6);}
 }
@@ -432,8 +432,8 @@ img {
 	margin: 5 0 -5px 0px;
 	animation: neonsign 0.66s forwards ease-in-out 0.66s, neonsigndrop 13s infinite cubic-bezier(0, 1, 1, 0) 3s;
 }
-.logo:hover {
-	cursor: url(cur/fuckyou.png) 9 1, url(cur/fuckyou.cur) 9 1, pointer;
+.logo-wrapper {
+	cursor: url(cur/fuckyou.png) 9 1, url(cur/fuckyou.cur) 9 1, pointer!important;
 }
 
 @keyframes neonsign {
