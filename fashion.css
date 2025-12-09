@@ -7,7 +7,14 @@
     font-family: 'OpenSans';
     src: url('OpenSans.ttf') format('truetype');
   }
-
+a[x-apple-data-detectors] {
+    color: white;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: text;
+    font-family: JetBrainsMono, monospace;
+    font-size: 13px;
+}
 #noise-canvas {
     position: fixed;
     top: 0; left: 0;
@@ -277,7 +284,7 @@ img {
 #logoblock {
     white-space: nowrap;
     display: inline-block;
-    max-width: 100%;
+    min-width: 100%;
     text-align: center;
     color: rgba(255, 255, 255, 0.3);
     line-height: 100%;
@@ -654,32 +661,38 @@ img#stable:hover + .sd_text {display: inline-block;animation: glitch 0.23s forwa
 }
 
 @media (max-width: 480px) {
-  #hat { transform: scale(0.89); transform-origin: center center;}
+  #logoblock { font-size: 34pt;}
+  logo {width: 48px;}
 }
 
 /* (iPhone 11, XR) */
 @media (max-width: 414px) {
-  #hat { transform: scale(0.77); transform-origin: center center;}
+  #logoblock { font-size: 32pt;}
+  logo {width: 45px;}
 }
 
 /* (iPhone 12/13/14/15 Pro) */
 @media (max-width: 390px) {
-  #hat { transform: scale(0.72); transform-origin: center center;}
+  #logoblock { font-size: 31pt;}
+  logo {width: 43px;}
 }
 
 /* (iPhone SE, X, 11 Pro) */
 @media (max-width: 375px) {
-  #hat { transform: scale(0.69); transform-origin: center center;}
+  #logoblock { font-size: 29pt;}
+  logo {width: 41px;}
 }
 
 /* (старые Android) */
 @media (max-width: 360px) {
-  #hat { transform: scale(0.67); transform-origin: center center;}
+  #logoblock { font-size: 28.6pt;}
+  logo {width: 40px;}
 }
 
 /* (очень старые девайсы) */
 @media (max-width: 320px) {
-  #hat { transform: scale(0.59); transform-origin: center center;}
+  #logoblock { font-size: 27.1pt;}
+  logo {width: 38px;}
 }
 
 
