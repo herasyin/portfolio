@@ -583,6 +583,7 @@ img {
 
 
 .ae_text, .pr_text, .ps_text, .ai_text, .au_text, .sd_text {
+    font-family: OpenSans, Tahoma, sans-serif;
     text-align: left;
     transform: translate(-110px, 120px);
     font-weight: 900;
@@ -629,9 +630,16 @@ img#stable:hover + .sd_text {display: inline-block;animation: glitch 0.23s forwa
     100% {transform: translateY(-0px);}
 }
 
-.description {text-align: left; font-weight: 200;font-size: 12pt;opacity: 1 !important;filter: drop-shadow(0px 0px 0px black) !important;}
+.description {
+    font-family: JetBrainsMono, monospace;
+    text-align: left;
+    font-weight: 200;
+    font-size: 12pt;
+    opacity: 1 !important;
+    filter: drop-shadow(0px 0px 0px black) !important;}
 
 #mouseover {
+    font-family: OpenSans, Tahoma, sans-serif;
 	font-weight: 900;font-size: 24pt;
     animation: blinky 0.6s infinite ease-in-out alternate-reverse;
 }
